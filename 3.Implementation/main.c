@@ -74,6 +74,7 @@ int main()
                    break;
 			 
 }
+      test_main();
       return 0;
 }
 
