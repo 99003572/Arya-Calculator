@@ -75,3 +75,9 @@ void test_modulus(void)
     TEST_ASSERT_EQUAL(5, modulus(35, 6));
     TEST_ASSERT_EQUAL(2, modulus(43, 7));
 }
+
+void test_exp(void)
+{
+  TEST_ASSERT_EQUAL(9, exponential(3, 2);
+  TEST_ASSERT_EQUAL(1, exponential(10, 0);
+ }
