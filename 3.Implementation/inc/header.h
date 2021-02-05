@@ -3,12 +3,12 @@
 
 #include <stdio.h>
 #include <math.h>
-void add_numbers();
-void subtract_numbers();
-void multiply_numbers();
-void divide_numbers();
-void exponential();
-void factorial();
-void modulus();
+int add(int num1, int num2);
+int subtract(int num1, int num2);
+int multiply(int num1, int num2);
+int division(int num1, int num2);
+int exponential(int num);
+int factorial(int num);
+int modulus(int num1, int num2);
 
 #endif
