@@ -19,7 +19,7 @@ void setUp(){}
 void tearDown(){}
 
 /* Start of the application test */
-int main()
+int test_main()
 {
 /* Initiate the Unity Test Framework */
   UNITY_BEGIN();
