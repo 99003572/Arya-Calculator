@@ -1,11 +1,8 @@
 #include "header.h"
-void modulus()
+
+int modulus(int num1,int num2)
 {
-    int a, b, d=0; 
-    printf("\nPlease enter first number   : "); 
-    scanf("%d", &a); 
-    printf("Please enter second number  : "); 
-    scanf("%d", &b);
-    d=a%b;
-    printf("\nModulus of entered numbers = %d\n",d);
+	int modulus;
+	modulus = num1%num2;
+	return modulus;
 }
