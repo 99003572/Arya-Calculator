@@ -1,37 +1,29 @@
 PROJECT_NAME = arya_calc
 
-# Output directory
-BUILD = build
 
-# All source code files
-SRC = main.c\
-src/add.c\
-src/subtract.c\
-src/multiply.c\
-src/divide.c\
-src/modulus.c\
-src/exponential.c\
-src/factorial.c\
 
-INC	= -Iinc
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = schoolbilling_system.o
+LINKOBJ  = schoolbilling_system.o
+LIBS     = -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib" -L"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"C:/Program Files (x86)/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = School_billing_system.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
 
-PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
+.PHONY: all all-before all-after clean clean-custom
 
-$(PROJECT_NAME):all
+all: all-before $(BIN) all-after
 
-# Run the target even if the matching name exists
-.PHONY: run clean all
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
 
-all: $(SRC) $(BUILD)
-	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).out
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
 
-# Call `make run` to run the application
-run: $(PROJECT_NAME)
-	./$(PROJECT_OUTPUT).out
-
-clean:
-	rm -rf $(BUILD)
-
-# Create new build folder if not present
-$(BUILD):
-	mkdir build
+schoolbilling_system.o: schoolbilling_system.c
+	$(CC) -c schoolbilling_system.c -o schoolbilling_system.o $(CFLAGS)
