@@ -24,3 +24,4 @@ Our Calculator - **Arya Calculator** is designed to do the following functions:
   * High level design
   
 ![CI](https://github.com/99003572/Arya-Calculator/workflows/CI/badge.svg)
+![cppcheck-action](https://github.com/99003572/Arya-Calculator/workflows/cppcheck-action/badge.svg)
