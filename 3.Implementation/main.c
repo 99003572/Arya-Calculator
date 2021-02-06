@@ -70,8 +70,16 @@ int main()
 	        printf("Result is %d",factorial(number1));
 	        break;
                    }
+        case 8: {
+                printf("Enter the marks scored: ");
+	        scanf("%d",&number1);
+	        printf("Enter the total marks\n");
+	        scanf("%d",&number2);
+	        printf("Result is %d",percentage(number1,number2));
+	        break;
+                   }
 		    
-    case 8: printf("Invalid choice");
+    case 9: printf("Invalid choice");
                    break;
 			 
 }
