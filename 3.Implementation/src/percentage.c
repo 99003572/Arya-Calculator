@@ -13,11 +13,9 @@ float percentage(float num1,float num2)
     else
     {/* Calculate percentage */
     /*Formula for percentage is */
-
+       
     per = (num1 / num2 )*100;
-    /* Print the result */
-    printf("Percentage = %.3f", per);
-    /* The result is rounded off to 3 decimal places */
+    
     }
     return per;
 }
