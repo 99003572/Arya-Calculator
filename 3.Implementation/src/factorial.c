@@ -2,17 +2,18 @@
 
 int factorial(int num1)
 {
-	int temp;
+	int dummy=0;
 	long fact = 1;
-	if(num1 < 0){
+	if(num1 < 0)
+	{
 		printf("Enter positive number\n");
 	}
 	else
 	{ 
-	       for(temp=1;temp<=num1;temp++)
+	       for(dummy=1;dummy<=num1;dummy++)
 	       {
-		    fact=fact*temp;
-           }
+		    fact=fact*dummy;
+           	}
 	       return fact;
 	}
 }
