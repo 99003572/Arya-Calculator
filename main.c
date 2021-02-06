@@ -70,19 +70,11 @@ int main()
 	        printf("Result is %d",factorial(number1));
 	        break;
                    }
-        case 8: {
-                printf("Enter the obtained number: ");
-	        scanf("%d",&number1);
-	        printf("Enter the total\n");
-	        scanf("%d",&number2);
-	        printf("Result is %d",percentage(number1,number2));
-	        break;
-                   }
-		    
-    case 9: printf("Invalid choice");
+    case 8: printf("Invalid choice");
                    break;
 			 
 }
      test_main(); 
       return 0;
 }
+
