@@ -89,7 +89,6 @@ int main()
     case 10: printf("Invalid choice");
                    break;
 			 
-}
-     test_main(); 
+	}
       return 0;
 }
