@@ -3,8 +3,7 @@ name: Unit testing
 on:
   push:
     branches: [ master ]
-  pull_request:
-    branches: [ master ]
+
 
 jobs:
   build:
@@ -16,4 +15,4 @@ jobs:
     - name: Install Cunit
       run: sudo apt-get -y install libcunit1 libcunit1-doc libcunit1-dev 
     - name: make test
-      run:  make test
+      run:  make test -C 3.Implementation/
