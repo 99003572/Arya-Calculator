@@ -3,7 +3,7 @@
 
 /* Modify these two lines according to the project */
 #include <header.h>
-#define PROJECT_NAME    "Arya Calculator"
+#define PROJECT_NAME    "arya_calc"
 
 /* Prototypes for all the test functions */
 void test_add(void);
@@ -12,6 +12,7 @@ void test_multiply(void);
 void test_divide(void);
 void test_factorial(void);
 void test_modulus(void);
+void test_exp(void);
 
 /* Required by the unity test framework */
 void setUp(){}
@@ -31,6 +32,7 @@ int test_main()
   RUN_TEST(test_divide);
   RUN_TEST(test_factorial);
   RUN_TEST(test_modulus);
+  RUN_TEST(test_exp);
   
 
   /* Close the Unity Test Framework */
