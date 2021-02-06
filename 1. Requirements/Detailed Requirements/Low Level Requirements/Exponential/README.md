@@ -7,4 +7,3 @@
 | LL\_04 | The program should display the correct output according to the input given. |
 | LL\_05 | The program should exit after displaying the result. |
 
-
