@@ -2,7 +2,7 @@
 
  int subtract(int num1,int num2)
 {
-	int subtract=0;
-	subtract = num1-num2;
-	return subtract;
+	int sub=0;
+	sub = num1-num2;
+	return sub;
 }
