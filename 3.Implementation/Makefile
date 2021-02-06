@@ -21,11 +21,13 @@ src/divide.c\
 src/modulus.c\
 src/exponential.c\
 src/factorial.c\
-test/test_arya_calculator.c
+test/test_arya_calculator.c\
+unity/unity.c\
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
-INC    = -Iinc
+INC    = -Iinc\
+-Iunity
 
 PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
 
