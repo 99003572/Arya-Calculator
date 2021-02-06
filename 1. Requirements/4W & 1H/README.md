@@ -14,7 +14,7 @@ Calculators can be used when we find it difficult to solve a problem, solve comp
 
 4. **WHY?**
 
-Calculators can provide much more precise, accurate results without any error when compared to the calculations made by user. Calculators are designed in such a way that anybody can make use of it easily.
+Calculators can provide much more precise,accurate results without any error when compared to the calculations made by user. Calculators are designed in such a way that anybody can make use of it easily.
 
 5. **HOW?**
 
