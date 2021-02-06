@@ -8,19 +8,7 @@
 ![alt text](https://github.com/99003572/Arya-Calculator/blob/main/2.%20Design/Low%20Level%20Design/Simple%20Operations/Structural%20Diagram.jpg)
 
 # Low Level Basic Operators Behavioural Diagram
-![alt text](https://github.com/99003572/Arya-Calculator/blob/main/2.%20Design/Low%20Level%20Design/Simple%20Operations/Use%20Case%20diagram.jpg)
-
-# Low Level Quadratic Equation Structural Diagram
-![alt text](https://github.com/99003572/Arya-Calculator/blob/main/2.%20Design/Low%20Level%20Design/Quadratic/Structural.png)
-
-# Low Level Quadratic Equation Behavioural Diagram
-![alt text](https://github.com/99003572/Arya-Calculator/blob/main/2.%20Design/Low%20Level%20Design/Quadratic/Behavioural.png)
-
-# Low Level Trigonometry Structural Diagram
-![alt text](https://github.com/99003572/Arya-Calculator/blob/main/2.%20Design/Low%20Level%20Design/Trignometry/Trigonometry_Structural_Diagram.png)
-
-# Low Level Trigonometry Behavioural Diagram
-![alt text](https://github.com/99003572/Arya-Calculator/blob/main/2.%20Design/Low%20Level%20Design/Trignometry/Trigonometry_Behavioural_Diagram.png)
+![alt text](https://github.com/99003572/Arya-Calculator/blob/main/2.%20Design/Low%20Level%20Design/Simple%20Operations/Use%20Case%20diagram.jpg
 
 # Low Level Exponential Structural Diagram 
 ![alt text](https://github.com/99003572/Arya-Calculator/blob/main/2.%20Design/Low%20Level%20Design/Exponential/Structural.jpg)
