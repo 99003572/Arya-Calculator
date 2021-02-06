@@ -1,6 +1,5 @@
 PROJECT_NAME = arya_calc
 
-# Output directory
 BUILD = build
 
 # All source code files
@@ -21,21 +20,20 @@ src/divide.c\
 src/modulus.c\
 src/exponential.c\
 src/factorial.c\
-test/test_arya_calculator.c\
-unity/unity.c\
 test/test_arya_calculator.c
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
-INC    = -Iinc\
--Iunity
+# All include folders with header files
+INC	= -Iinc
 
 PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
 
+# Default target built
 $(PROJECT_NAME):all
 
 # Run the target even if the matching name exists
-.PHONY: run clean test all
+.PHONY: run clean test  doc all
 
 all: $(SRC) $(BUILD)
 	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).out
@@ -47,8 +45,9 @@ run:$(PROJECT_NAME)
 # Build and run the unit tests
 test:$(BUILD)
 	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) -lcunit
-    	./$(TEST_OUTPUT)
+	./$(TEST_OUTPUT)
 
+# Remove all the built files, invoke by `make clean`
 clean:
 	rm -rf $(BUILD)
 
