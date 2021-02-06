@@ -9,6 +9,7 @@ int main()
     printf("press 1 to add two numbers\n press 2 to subtract two numbers\n press 3 to multiply two numbers\n");
     printf("press 4 to divide two numbers\n press 5 to find modulus\n");
     printf("press 6 to find exponential\n press 7 to find factorial of a numbers\n");
+    printf("press 8 to find percentage\n press 9 to find square of a number \n");
     scanf("%d", &select);
     switch(select)
     {
@@ -80,7 +81,7 @@ int main()
 	        break;
                    }
 	case 9: {
-                printf("Enter thenumber: ");
+                printf("Enter the number: ");
 	        scanf("%f",&num1);
 	        printf("Result is %f",square(num1));
 	        break;
