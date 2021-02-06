@@ -23,7 +23,7 @@ src/exponential.c\
 src/factorial.c\
 test/test_arya_calculator.c\
 unity/unity.c\
-test_arya_calculator.c
+test/test_arya_calculator.c
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
