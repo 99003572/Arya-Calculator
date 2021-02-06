@@ -1,7 +1,5 @@
 ## Arya-Calculator
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/2c06854181994bcdbcf96436ab2bfaaa)](https://app.codacy.com/gh/99003572/Arya-Calculator?utm_source=github.com&utm_medium=referral&utm_content=99003572/Arya-Calculator&utm_campaign=Badge_Grade)
-
 ![Codacy Badge](https://api.codacy.com/project/badge/Grade/2c06854181994bcdbcf96436ab2bfaaa)
 ![CI](https://github.com/99003572/Arya-Calculator/workflows/CI/badge.svg)
 ![cppcheck-action](https://github.com/99003572/Arya-Calculator/workflows/cppcheck-action/badge.svg)
