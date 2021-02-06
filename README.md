@@ -31,3 +31,13 @@ Our Calculator - **Arya Calculator** is designed to do the following functions:
   * Low level design
   * High level design
   
+## Team 
+|       Name  |     Number          |           Feature         | Issues Raised | Issues Resolved|
+|-------------|---------------------|---------------------------|---------------|----------------|
+|        Anagha  | 990035           |      |            1 |1               |
+|        Gagana  | 990035           |      |            1 |1               |
+|        Karti A Nair  | 99003572           |      |            1 |1               |
+|        Pranitha   | 99003567           |       |            1 |1               |
+|        Preethu  | 990035           |      |            1 |1               |
+|        Mohammad Fayaz  | 990035           |      |            1 |1               |
+  
