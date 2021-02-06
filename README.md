@@ -1,4 +1,10 @@
 ## Arya-Calculator
+![Codacy Badge](https://api.codacy.com/project/badge/Grade/2c06854181994bcdbcf96436ab2bfaaa)
+![CI](https://github.com/99003572/Arya-Calculator/workflows/CI/badge.svg)
+![cppcheck-action](https://github.com/99003572/Arya-Calculator/workflows/cppcheck-action/badge.svg)
+![Valgrind](https://github.com/99003572/Arya-Calculator/workflows/Valgrind/badge.svg)
+![Unit testing](https://github.com/99003572/Arya-Calculator/workflows/Unit%20testing/badge.svg)
+
 
 Calculator built by Team 6 of Aryabhatta
 
