@@ -10,6 +10,7 @@ int division(int num1, int num2);
 int exponential(int num);
 int factorial(int num);
 int modulus(int num1, int num2);
-float percentage(float num1,float num2)
+float percentage(float num1,float num2);
+float square(float num1);
 
 #endif
