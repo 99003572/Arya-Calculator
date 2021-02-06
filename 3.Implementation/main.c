@@ -70,6 +70,7 @@ int main()
 	        printf("Result is %d",factorial(number1));
 	        break;
                    }
+		    
     case 8: printf("Invalid choice");
                    break;
 			 
