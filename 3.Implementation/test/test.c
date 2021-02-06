@@ -1,6 +1,7 @@
 #include "unity.h"
 #include "header.h"
-#include "test.h"
+
+int test_main(void);
 
 /* Modify these two lines according to the project */
 

@@ -72,15 +72,15 @@ int main()
 	        break;
                    }
         case 8: {
-                printf("Enter the obtained number: ");
+            printf("Enter the obtained number: ");
 	        scanf("%f",&num1);
 	        printf("Enter the total\n");
-	        scanf("%f",&numr2);
+	        scanf("%f",&num2);
 	        printf("Result is %f",percentage(num1,num2));
 	        break;
                    }
 	case 9: {
-                printf("Enter the number: ");
+            printf("Enter the number: ");
 	        scanf("%f",&num1);
 	        printf("Result is %f",square(num1));
 	        break;
