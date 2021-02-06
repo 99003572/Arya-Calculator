@@ -1,5 +1,5 @@
 #include "header.h"
-
+#include<test.h>
 #include <stdio.h>
 
 int main()
@@ -13,74 +13,67 @@ int main()
     {
         case 1:  {
             printf( "Enter first operand\n");
-	         scanf("%d",&number1);
+	        scanf("%d",&number1);
 	        printf("Enter second operand\n");
 	        scanf("%d",&number2);
-	        printf("Result is %d",addition(number1,number2);
+	        printf("Result is %d",add(number1,number2));
 	        break;
                    }
     
 	case 2: {
             printf( "Enter first operand\n");
-	         scanf("%d",&number1);
+	        scanf("%d",&number1);
 	        printf("Enter second operand\n");
 	        scanf("%d",&number2);
-	        printf("Result is %d",subtraction(number1,number2);
+	        printf("Result is %d",subtract(number1,number2));
 	        break;
                    }
 			
 	case 3: {
-             printf( "Enter first operand\n");
-	         scanf("%d",&number1);
+            printf( "Enter first operand\n");
+	        scanf("%d",&number1);
 	        printf("Enter second operand\n");
 	        scanf("%d",&number2);
-	        printf("Result is %d",multiplication(number1,number2);
+	        printf("Result is %d",multiply(number1,number2));
 	        break;
                    }
 			
 	case 4: {
-               printf( "Enter first operand\n");
-	         scanf("%d",&number1);
+            printf( "Enter first operand\n");
+	        scanf("%d",&number1);
 	        printf("Enter second operand\n");
 	        scanf("%d",&number2);
-	        printf("Result is %d",division(number1,number2);
+	        printf("Result is %d",division(number1,number2));
 	        break;
                    }
 			
 	case 5: {
             printf( "Enter first operand\n");
-	         scanf("%d",&number1);
+	        scanf("%d",&number1);
 	        printf("Enter second operand\n");
 	        scanf("%d",&number2);
-	        printf("Result is %d",modulus(number1,number2);
+	        printf("Result is %d",modulus(number1,number2));
 	        break;
                    }
 			
 	case 6: {
-            printf( "Enter first operand\n");
-	         scanf("%d",&number1);
-	        printf("Enter second operand\n");
+            printf("Enter a base number: ");
+	        scanf("%d",&number1);
+	        printf("Enter exponent\n");
 	        scanf("%d",&number2);
-	        printf("Result is %d",power(number1,number2);
+	        printf("Result is %d",exponential(number1,number2));
 	        break;
                    }
 	case 7:  {
             printf("Enter a number\n");
 	        scanf("%d",&number1);
-	        printf("Result is %d",factorial(number1)";
+	        printf("Result is %d",factorial(number1));
 	        break;
                    }
     case 8: printf("Invalid choice");
                    break;
 			 
 }
-      test_main();
+     test_main(); 
       return 0;
 }
-
-
-
-
-
-
-
