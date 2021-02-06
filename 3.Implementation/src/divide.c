@@ -1,10 +1,13 @@
 #include "header.h"
-void divide_numbers()
+
+int division(int num1,int num2)
 {
-    int num1, num2;
-    printf(" Enter the first number\n");
-    scanf("%d", &num1);
-    printf(" Enter the second number\n");
-    scanf("%d", &num2);
-    printf("%d / %d = %d\n",num1,num2,num1/num2);
+	int division;
+	if(num2==0)
+		return 0;
+	else
+	{
+		division = num1/num2;
+		return division;
+	}
 }
