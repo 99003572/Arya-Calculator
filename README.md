@@ -1,6 +1,6 @@
 ## Arya-Calculator
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/dd2f1fc1967541fca007282b55228bdb)
+![Codacy Badge](https://api.codacy.com/project/badge/Grade/dd2f1fc1967541fca007282b55228bdb)
 ![CI](https://github.com/99003572/Arya-Calculator/workflows/CI/badge.svg)
 ![cppcheck-action](https://github.com/99003572/Arya-Calculator/workflows/cppcheck-action/badge.svg)
 ![Valgrind](https://github.com/99003572/Arya-Calculator/workflows/Valgrind/badge.svg)
@@ -44,10 +44,10 @@ Our Calculator - **Arya Calculator** is designed to do the following functions:
 ## Test Status
 |       Name  |     Number |       HL    |     LL       |Test cases passed | Test cases failed|
 |-------------|------------|-------------|--------------|------------------|------------------|
-|        Anagha  | 990035           |      |            1 |1               |   |
-|        Gagana  | 990035           |      |            1 |1               |  |
-|        Karti A Nair  | 99003572           |      |            1 |1               |  |
-|        Pranitha   | 99003567           |       |            1 |1               |   |
-|        Preethu  | 990035           |      |            1 |1               |   |
-|        Mohammad Fayaz  | 990035           |      |            1 |1               |   |
+|        Anagha  | 990035           |      |            3|3               |0   |
+|        Gagana  | 990035           |      |            3 |3               |0  |
+|        Karti A Nair  | 99003572           |      |            3 |3               |0  |
+|        Pranitha   | 99003567           |       |            3 |3               |0   |
+|        Preethu  | 990035           |      |            3 |3               |0   |
+|        Mohammad Fayaz  | 990035           |      |            3 |3               |0   |
   
