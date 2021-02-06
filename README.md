@@ -1,7 +1,5 @@
 ## Arya-Calculator
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/2c06854181994bcdbcf96436ab2bfaaa)](https://app.codacy.com/gh/99003572/Arya-Calculator?utm_source=github.com&utm_medium=referral&utm_content=99003572/Arya-Calculator&utm_campaign=Badge_Grade)
-
 Calculator built by Team 6 of Aryabhatta
 
 An electronic calculator is typically a portable electronic device used to perform calculations ranging from basic arithmetic to complex mathematics. Calculators are used in a comprehensive mathematics curriculum to increase the quality of student learning experience. Without calculators, advanced math courses, such as Calculus, would require much longer time to solve.
@@ -25,8 +23,8 @@ Our Calculator - **Arya Calculator** is designed to do the following functions:
 * Design
   * Low level design
   * High level design
+  
 ![Codacy Badge](https://api.codacy.com/project/badge/Grade/2c06854181994bcdbcf96436ab2bfaaa)](https://app.codacy.com/gh/99003572/Arya-Calculator?utm_source=github.com&utm_medium=referral&utm_content=99003572/Arya-Calculator&utm_campaign=Badge_Grade)
-
 ![CI](https://github.com/99003572/Arya-Calculator/workflows/CI/badge.svg)
 ![cppcheck-action](https://github.com/99003572/Arya-Calculator/workflows/cppcheck-action/badge.svg)
 ![Valgrind](https://github.com/99003572/Arya-Calculator/workflows/Valgrind/badge.svg)
