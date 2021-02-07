@@ -2,7 +2,7 @@
 ![alt text](https://github.com/99003572/Arya-Calculator/blob/master/2.%20Design/High%20Level%20Design/Structural%20Diagram/High_level_Structural_diagram.png)
 
 # High Level Behavioural Diagram
-![alt text](https://github.com/99003572/Arya-Calculator/blob/main/2.%20Design/High%20Level%20Design/Behavioural%20Diagram/behavioral.jpeg)
+![alt text](https://github.com/99003572/Arya-Calculator/blob/master/2.%20Design/High%20Level%20Design/Behavioural%20Diagram/High_level_Behavioural_diagram.png)
 
 # Low Level Basic Operators Structural Diagram
 ![alt text](https://github.com/99003572/Arya-Calculator/blob/main/2.%20Design/Low%20Level%20Design/Simple%20Operations/Structural%20Diagram.jpg)
