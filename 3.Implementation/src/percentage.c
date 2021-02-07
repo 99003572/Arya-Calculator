@@ -3,9 +3,9 @@
 
 float percentage(float num1,float num2)
 {
-    float per;
+    float percent;
    
-    scanf("%f %f", &num1,&num2);*/
+    scanf("%f %f", &num1,&num2);
     if(num1==0 || num2==0)
     {
         printf("Both the numbers entered should be greater than 0");
@@ -13,7 +13,7 @@ float percentage(float num1,float num2)
     else
     {
        
-    per = (num1 / num2 )*100;
+    percent = (num1 / num2 )*100;
     
     }
     return per;
