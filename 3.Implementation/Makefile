@@ -6,8 +6,6 @@ src/multiply.c\
 src/exponential.c\
 src/modulus.c\
 src/subtract.c\
-src/percentage.c\
-src/square.c\
 test/test_arya_calculator.c\
 main.c
 
