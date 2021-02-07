@@ -28,3 +28,10 @@
 # Low level Factorial Behavioural Diagram
 ![alt text](https://github.com/99003572/Arya-Calculator/blob/master/2.%20Design/Low%20Level%20Design/factorial/behavioural%20(2).png)
 
+# Low level Percentage Structural Diagram
+![alt text](https://github.com/99003572/Arya-Calculator/blob/master/2.%20Design/Low%20Level%20Design/percentage/structural_diagram_percentage.png)
+
+# Low level Percentage Behavioural Diagram
+![alt text](https://github.com/99003572/Arya-Calculator/blob/master/2.%20Design/Low%20Level%20Design/percentage/usecase_diagram_percentage%20(1).png)
+
+
