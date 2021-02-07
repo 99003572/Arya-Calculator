@@ -11,7 +11,7 @@
 
 | **NAME** | **PS NUMBER** | **SF ID** | **FEATURES** | **ISSUES RAISED** | **ISSUES RESOLVED** |
 | --- | --- | --- | --- | --- | --- |
-| Anagha B [Integrator-1] | 99003569 | 105197 | Documentation: High level design, High level test plan, High level requirement.Implementation: Unit Testing with test cases, integrating to main function. | 2 | 2 |
+| Anagha B [Integrator-1] | 99003569 | 105197 | Documentation: High level design, High level test plan, High level requirement.Implementation: Unit Testing with test cases, integrating to main function and makefile. | 2 | 2 |
 | Preethu K[Integrator-2] | 99003565 | 105061 | Implementation: Workflows ( unit, cpp check, CI, Valgrind )  Documentation: Low level requirements, low level and high level design. | 2 | 2 |
 | Vinti Sai Pranitha | 99003567 | 105083 | Documentation: research, low level requirements and low level design Implementation: Exponential function and subtraction functions. | 2 | 2 |
 | Karti A Nair | 99003572 | 105169 | Documentation: 4W &amp; 1H, Low level requirements, low level design.Implementation: Multiply, divide functions, test cases and codacy. | 2 | 2 |
