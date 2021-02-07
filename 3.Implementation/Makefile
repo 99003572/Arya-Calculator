@@ -11,6 +11,8 @@ src/divide.c\
 src/modulus.c\
 src/exponential.c\
 src/factorial.c\
+src/percentage.c\
+src/square.c\
 
 # All test source files
 TEST_SRC = src/add.c\
@@ -20,6 +22,8 @@ src/divide.c\
 src/modulus.c\
 src/exponential.c\
 src/factorial.c\
+src/percentage.c\
+src/square.c\
 test/test_arya_calculator.c
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
