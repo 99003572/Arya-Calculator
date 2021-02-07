@@ -13,7 +13,7 @@
 | --- | --- | --- | --- | --- | --- |
 | Anagha B [Integrator-1] | 99003569 | 105197 | Documentation: High level design, High level test plan, High level requirement.Implementation: Unit Testing with test cases, integrating to main function. | 2 | 2 |
 | Preethu K[Integrator-2] | 99003565 | 105061 | Implementation: Workflows ( unit, cpp check, CI, Valgrind )  Documentation: Low level requirements, low level and high level design. | 2 | 2 |
-| Vinti Sai Pranitha | 99003567 | 105083 | Documentation: research, low level requirements and low level design Implementation: Exponential function, make file and subtraction functions. | 2 | 2 |
+| Vinti Sai Pranitha | 99003567 | 105083 | Documentation: research, low level requirements and low level design Implementation: Exponential function and subtraction functions. | 2 | 2 |
 | Karti A Nair | 99003572 | 105169 | Documentation: 4W &amp; 1H, Low level requirements, low level design.Implementation: Multiply, divide functions, test cases and codacy. | 2 | 2 |
 | Gagana A | 99003568 | 105440 | Documentation: low level requirements, low level design, low level test plan.Implementation: percentage and square function | 2 | 2 |
 | Mohammed Fayaz | 99003571 | 104886 | Documentation: Low level requirements, low level design,low level test plan.Implementation on: Modulus function. | 2 | 2 |
@@ -41,6 +41,8 @@ Link to the website containing information regarding GitHub issues.
 | 2 | Occurance of errors while using makefiles. |
 | 3 | Issues with workflow actions. |
 | 4 | Difficulties while executing the test cases. |
+
+Special thanks to 99003531 (Harshitha) of team 5 for the continious support.
 
 Calculator built by Team 6 of Aryabhatta
 
