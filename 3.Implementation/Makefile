@@ -13,7 +13,7 @@ INC = -Iunity\
 -Iinc\
 -Itest
 
-PROJECT_NAME = anagha1.exe
+PROJECT_NAME = anagha1.out
 
 BUILD = build
 
