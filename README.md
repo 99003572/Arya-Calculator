@@ -42,7 +42,7 @@ Link to the website containing information regarding GitHub issues.
 | 3 | Issues with workflow actions. |
 | 4 | Difficulties while executing the test cases. |
 
-Special thanks to 99003531 (Harshitha) of team 5 for the continious support.
+Special thanks to 99003531 (Harshitha) of team 3 for the continious support.
 
 Calculator built by Team 6 of Aryabhatta
 
