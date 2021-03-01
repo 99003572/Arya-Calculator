@@ -13,9 +13,9 @@ int main()
     switch(select)
     {
         case 1:  {
-            printf( "Enter first operand\n");
+            printf( "Enter the number1(integer/float) not other datatype \n");
 	        scanf("%d",&number1);
-	        printf("Enter second operand\n");
+	        printf("Enter the number2(integer/float) not other datatyper\n");
 	        scanf("%d",&number2);
 	        printf("Result is %d",add(number1,number2));
 	        break;
@@ -40,9 +40,9 @@ int main()
                    }
 			
 	case 4: {
-            printf( "Enter first operand\n");
+            printf( "Enter the number1(integer/float) not other datatype \n");
 	        scanf("%d",&number1);
-	        printf("Enter second operand\n");
+	        printf("Enter the number2(integer/float) not other datatype \n");
 	        scanf("%d",&number2);
 	        printf("Result is %d",division(number1,number2));
 	        break;
@@ -58,9 +58,9 @@ int main()
                    }
 			
 	case 6: {
-            printf("Enter a base number: ");
+            printf("Enter a base number(integer/float) not other datatype \n");
 	        scanf("%d",&number1);
-	        printf("Enter exponent\n");
+	        printf("Enter exponent number2(integer/float) not other datatype\n");
 	        scanf("%d",&number2);
 	        printf("Result is %d",exponential(number1,number2));
 	        break;
