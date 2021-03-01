@@ -6,7 +6,7 @@ src/multiply.c\
 src/exponential.c\
 src/modulus.c\
 src/subtract.c\
-test/test_arya_calculator.c\
+test/test.c\
 main.c
 
 INC = -Iunity\
