@@ -90,3 +90,11 @@ void test_exp(void)
   TEST_ASSERT_EQUAL(9, exponential(3, 2));
   TEST_ASSERT_EQUAL(1, exponential(10, 0));
 }
+
+void test_square(void){
+  TEST_ASSERT_EQUAL(100, square(10));
+}
+
+void test_percentage(void){
+  TEST_ASSERT_EQUAL(50, percentage(10, 20));
+}
