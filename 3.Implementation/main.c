@@ -44,6 +44,10 @@ int main()
 	        scanf("%d",&number1);
 	        printf("Enter the number2(integer/float) not other datatype \n");
 	        scanf("%d",&number2);
+		while(number2==0)
+		{
+		 printf("Enter the number2(integer/float) other than 0(zero)\n");
+		}
 	        printf("Result is %d",division(number1,number2));
 	        break;
                    }
