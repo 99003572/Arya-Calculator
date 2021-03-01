@@ -16,5 +16,5 @@ float percentage(float num1,float num2)
     percent = (num1 / num2 )*100;
     
     }
-    return per;
+    return percent;
 }
