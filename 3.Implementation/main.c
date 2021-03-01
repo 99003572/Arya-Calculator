@@ -20,7 +20,7 @@ int main()
 	        scanf("%f",&number2);
 	        printf("Result is %f",add(number1,number2));
 	        break;
-        	}
+        }
     
 		case 2: {
             printf( "Enter first operand\n");
@@ -29,7 +29,7 @@ int main()
 	        scanf("%f",&number2);
 	        printf("Result is %f",subtract(number1,number2));
 	        break;
-    		}
+    	}
 			
 		case 3: {
             printf( "Enter first operand\n");
@@ -38,8 +38,8 @@ int main()
 	        scanf("%f",&number2);
 	        printf("Result is %f",multiply(number1,number2));
 	        break;
-                   }
-			
+        }
+
 		case 4: {
             printf( "Enter first operand\n");
 	        scanf("%f",&number1);
@@ -47,7 +47,7 @@ int main()
 	        scanf("%f",&number2);
 	        printf("Result is %f",division(number1,number2));
 	        break;
-                   }
+        }
 			
 		case 5: {
             printf( "Enter first operand\n");
@@ -56,8 +56,8 @@ int main()
 	        scanf("%f",&number2);
 	        printf("Result is %f",modulus(number1,number2));
 	        break;
-                   }
-			
+        }
+
 		case 6: {
             printf("Enter a base number: ");
 	        scanf("%f",&number1);
@@ -66,18 +66,21 @@ int main()
 	        printf("Result is %f",exponential(number1,number2));
 	        break;
     	}
+
 		case 7:  {
             printf("Enter a number\n");
 	        scanf("%f",&number1);
 	        printf("Result is %f",factorial(number1));
 	        break;
 		}
+
 		case 8:  {
             printf("Enter a number\n");
 	        scanf("%f",&number1);
 	        printf("Result is %f",square(number1));
 	        break;
     	}
+
 		case 9:  {
             printf( "Enter first operand\n");
 	        scanf("%f",&number1);
@@ -86,6 +89,7 @@ int main()
 	        printf("Result is %f",percentage(number1,number2));
 	        break;
     	}
+		
     	case 10: 
 			printf("Invalid choice");
             break;
