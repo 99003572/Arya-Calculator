@@ -16,6 +16,8 @@ void test_divide(void);
 void test_factorial(void);
 void test_modulus(void);
 void test_exp(void);
+void test_square(void);
+void test_percentage(void);
 
 /* Required by the unity test framework */
 void setUp(){}
@@ -36,6 +38,8 @@ int test_main()
   RUN_TEST(test_factorial);
   RUN_TEST(test_modulus);
   RUN_TEST(test_exp);
+  RUN_TEST(test_square);
+  RUN_TEST(test_percentage);
   
 
   /* Close the Unity Test Framework */
@@ -69,10 +73,10 @@ void test_divide(void) {
 
 void test_factorial(void)
 {
-    TEST_ASSERT_EQUAL(6, factorial(3));
-    TEST_ASSERT_EQUAL(1, factorial(0));
-    TEST_ASSERT_EQUAL(1, factorial(1));
-    TEST_ASSERT_EQUAL(22, factorial(4));
+  TEST_ASSERT_EQUAL(6, factorial(3));
+  TEST_ASSERT_EQUAL(1, factorial(0));
+  TEST_ASSERT_EQUAL(1, factorial(1));
+  TEST_ASSERT_EQUAL(22, factorial(4));
 }
 void test_modulus(void)
 {
@@ -85,4 +89,4 @@ void test_exp(void)
 {
   TEST_ASSERT_EQUAL(9, exponential(3, 2));
   TEST_ASSERT_EQUAL(1, exponential(10, 0));
- }
+}
