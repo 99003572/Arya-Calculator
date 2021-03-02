@@ -4,13 +4,13 @@
 
 int main()
 {
-	int select;
+	float select;
     float number1,number2;
     printf("press 1 to add two numbers\npress 2 to subtract two numbers\npress 3 to multiply two numbers\n");
     printf("press 4 to divide two numbers\npress 5 to find modulus\n");
     printf("press 6 to find exponential\npress 7 to find factorial of a numbers\n");
 	printf("press 8 to find percentage\npress 9 to find percentage of a numbers\n ");
-    scanf("%d", &select);
+    scanf("%f", &select);
     switch(select)
     {
         case 1:  {
