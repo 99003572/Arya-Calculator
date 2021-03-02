@@ -1,5 +1,5 @@
 #include "header.h"
-float square(float num1)
+int square(int num1)
 {
     return (num1*num1);
 }
