@@ -1,8 +1,8 @@
 #include "header.h"
 
-int division(int num1,int num2)
+float division(float num1,float num2)
 {
-	int divide;
+	float divide;
 	if(num2==0)
 		return 0;
 	else
