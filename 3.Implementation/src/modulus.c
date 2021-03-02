@@ -1,8 +1,8 @@
 #include "header.h"
 
-float modulus(float num1,flaot num2)
+int modulus(int num1,flaot num2)
 {
-	float mod;
+	int mod;
 	mod = num1%num2;
 	return mod;
 }
