@@ -1,6 +1,5 @@
 #include "header.h"
 
-
 float percentage(float num1,float num2)
 {
     float percent;
@@ -13,7 +12,7 @@ float percentage(float num1,float num2)
     else
     {
        
-    percent = (num1 / num2 )*100;
+    percent = (num1 / num2)*100;
     
     }
     return percent;
