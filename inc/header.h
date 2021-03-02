@@ -4,12 +4,12 @@
 
 #include <stdio.h>
 #include <math.h>
-int add(int num1, int num2);
-int subtract(int num1, int num2);
-int multiply(int num1, int num2);
-int division(int num1, int num2);
-int exponential(int num);
-int factorial(int num);
-int modulus(int num1, int num2);
+double add(int num1, int num2);
+float subtract(int num1, int num2);
+float multiply(int num1, int num2);
+float division(int num1, int num2);
+Long double exponential(int num);
+float factorial(int num);
+float modulus(int num1, int num2);
 
 #endif
