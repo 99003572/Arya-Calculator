@@ -4,7 +4,7 @@
 
 int main()
 {
-	float select;
+	int select, no1, no2;
     float number1,number2;
     printf("press 1 to add two numbers\npress 2 to subtract two numbers\npress 3 to multiply two numbers\n");
     printf("press 4 to divide two numbers\npress 5 to find modulus\n");
@@ -55,10 +55,10 @@ int main()
 			
 		case 5: {
             printf( "Enter first operand\n");
-	        scanf("%f",&number1);
+	        scanf("%d",&no1);
 	        printf("Enter second operand\n");
-	        scanf("%f",&number2);
-	        printf("Result is %f",modulus(number1,number2));
+	        scanf("%d",&no2);
+	        printf("Result is %d",modulus(no1,no2));
 	        break;
         }
 
@@ -73,8 +73,8 @@ int main()
 
 		case 7:  {
             printf("Enter a number\n");
-	        scanf("%f",&number1);
-	        printf("Result is %f",factorial(number1));
+	        scanf("%d",&no1);
+	        printf("Result is %d",factorial(no1));
 	        break;
 		}
 
