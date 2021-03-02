@@ -5,12 +5,12 @@
 int main()
 {
 	int select, no1, no2;
-    float number1,number2;
-    printf("press 1 to add two numbers\npress 2 to subtract two numbers\npress 3 to multiply two numbers\n");
-    printf("press 4 to divide two numbers\npress 5 to find modulus\n");
-    printf("press 6 to find exponential\npress 7 to find factorial of a numbers\n");
+	float number1,number2;
+	printf("press 1 to add two numbers\npress 2 to subtract two numbers\npress 3 to multiply two numbers\n");
+	printf("press 4 to divide two numbers\npress 5 to find modulus\n");
+	printf("press 6 to find exponential\npress 7 to find factorial of a numbers\n");
 	printf("press 8 to find percentage\npress 9 to find percentage of a numbers\n ");
-    scanf("%f", &select);
+	scanf("%f", &select);
     switch(select)
     {
         case 1:  {
@@ -22,7 +22,7 @@ int main()
 	        break;
         }
     
-		case 2: {
+	case 2: {
             printf( "Enter first operand\n");
 	        scanf("%f",&number1);
 	        printf("Enter second operand\n");
@@ -31,7 +31,7 @@ int main()
 	        break;
     	}
 			
-		case 3: {
+	case 3: {
             printf( "Enter first operand\n");
 	        scanf("%f",&number1);
 	        printf("Enter second operand\n");
@@ -40,7 +40,7 @@ int main()
 	        break;
         }
 
-		case 4: {
+	case 4: {
             printf( "Enter first operand(int/float)\n");
 	        scanf("%f",&number1);
 	        printf("Enter second operand(int/float)\n");
@@ -53,7 +53,7 @@ int main()
 	        break;
         }
 			
-		case 5: {
+	case 5: {
             printf( "Enter first operand\n");
 	        scanf("%d",&no1);
 	        printf("Enter second operand\n");
@@ -62,7 +62,7 @@ int main()
 	        break;
         }
 
-		case 6: {
+	case 6: {
             printf("Enter a base number(int/float): ");
 	        scanf("%f",&number1);
 	        printf("Enter exponent(int/float)\n");
@@ -71,21 +71,21 @@ int main()
 	        break;
     	}
 
-		case 7:  {
+	case 7:  {
             printf("Enter a number\n");
 	        scanf("%d",&no1);
 	        printf("Result is %d",factorial(no1));
 	        break;
-		}
+	}
 
-		case 8:  {
+	case 8:  {
             printf("Enter a number\n");
 	        scanf("%f",&number1);
 	        printf("Result is %f",square(number1));
 	        break;
     	}
 
-		case 9:  {
+	case 9:  {
             printf( "Enter first operand\n");
 	        scanf("%f",&number1);
 	        printf("Enter second operand\n");
@@ -95,8 +95,8 @@ int main()
     	}
 		
     	case 10: 
-			printf("Invalid choice");
-            break;
+		printf("Invalid choice");
+		    break;
 			 
 	}
     test_main(); 
