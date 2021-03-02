@@ -10,7 +10,7 @@ int main()
 	printf("press 4 to divide two numbers\npress 5 to find modulus\n");
 	printf("press 6 to find exponential\npress 7 to find factorial of a numbers\n");
 	printf("press 8 to find percentage\npress 9 to find percentage of a numbers\n ");
-	scanf("%f", &select);
+	scanf("%d", &select);
     switch(select)
     {
         case 1:  {
