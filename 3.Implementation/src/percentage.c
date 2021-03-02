@@ -1,8 +1,8 @@
 #include "header.h"
 
-float percentage(float num1,float num2)
+int percentage(int num1,int num2)
 {
-    float percent;
+    int percent;
    
     scanf("%f %f", &num1,&num2);
     if(num1==0 || num2==0)
