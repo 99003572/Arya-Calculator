@@ -18,7 +18,7 @@ int main()
 	        scanf("%f",&number1);
 	        printf("Enter second operand(int/float)\n");
 	        scanf("%f",&number2);
-	        printf("Result is %f",add(number1,number2));
+	        printf("Result is %lf",add(number1,number2));
 	        break;
         }
     
@@ -67,7 +67,7 @@ int main()
 	        scanf("%f",&number1);
 	        printf("Enter exponent(int/float)\n");
 	        scanf("%f",&number2);
-	        printf("Result is %f",exponential(number1,number2));
+	        printf("Result is %Lf",exponential(number1,number2));
 	        break;
     	}
 
