@@ -14,9 +14,9 @@ int main()
     switch(select)
     {
         case 1:  {
-            printf( "Enter first operand\n");
+            printf( "Enter first operand(int/float)\n");
 	        scanf("%f",&number1);
-	        printf("Enter second operand\n");
+	        printf("Enter second operand(int/float)\n");
 	        scanf("%f",&number2);
 	        printf("Result is %f",add(number1,number2));
 	        break;
@@ -41,10 +41,14 @@ int main()
         }
 
 		case 4: {
-            printf( "Enter first operand\n");
+            printf( "Enter first operand(int/float)\n");
 	        scanf("%f",&number1);
-	        printf("Enter second operand\n");
+	        printf("Enter second operand(int/float)\n");
 	        scanf("%f",&number2);
+		while(number2==0)
+		{
+		  	printf("Enter second operand(int/float) other than zero\n");
+		}
 	        printf("Result is %f",division(number1,number2));
 	        break;
         }
@@ -59,9 +63,9 @@ int main()
         }
 
 		case 6: {
-            printf("Enter a base number: ");
+            printf("Enter a base number(int/float): ");
 	        scanf("%f",&number1);
-	        printf("Enter exponent\n");
+	        printf("Enter exponent(int/float)\n");
 	        scanf("%f",&number2);
 	        printf("Result is %f",exponential(number1,number2));
 	        break;
